@@ -3,6 +3,11 @@ package ood.filesearch;
 import java.util.*;
 import java.util.function.Predicate;
 
+/*
+Task description:
+Design Unix File Search API to search file with different arguments like "name", "size" ...
+The design should be maintainable and easy to add new constraints.
+ */
 public final class Criteria {
     private List<Predicate<Entry>> predicateList = new ArrayList<>();
 
